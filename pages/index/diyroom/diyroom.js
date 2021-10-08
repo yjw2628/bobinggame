@@ -207,7 +207,7 @@ Page({
          })
          console.log(self.data.this_level1);
 
-        },1000)  
+        },20)  
             self.setData({
                 btn:".btnEnd",
                 texts:"停止",

@@ -2,7 +2,7 @@
 <view class="gameLook">
     <image class="background" src="../../../image/0-3.jpg" ></image>
     <view class="dicesize">
-        <view class="text">您的结果为：{{this_level1}}</view>
+        <view class="resulttext">您的结果为：{{this_level1}}</view>
         <view class="rowOne">
             <image src="{{dice1}}"></image>
             <image src="{{dice2}}"></image>

@@ -43,3 +43,9 @@
 .btnStart{
     color: brown;
 }
+
+.resulttext{
+    font-size: 45rpx;
+    font-style: inherit;
+    color: red;
+}
