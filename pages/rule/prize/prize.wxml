@@ -1,0 +1,9 @@
+<!-- 奖品列表 -->
+<view class="content">
+<block wx:for="{{artlist}}">
+    <view class="artImg">
+        <image src="{{item.imag}}"></image>
+    </view>
+    <view class="text" style="white-space: pre-wrap;">{{item.text}}</view>
+</block>
+</view>

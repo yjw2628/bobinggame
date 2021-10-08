@@ -1,0 +1,25 @@
+/* .grade{
+  border: tomato;
+} */
+
+.artImg{
+  width: 30%;
+}
+
+.text{
+  width: 70%;
+  font-weight: bold;
+
+
+}
+
+.artImg image{
+  width: 100%;
+  height: 150rpx;
+}
+
+.content{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}

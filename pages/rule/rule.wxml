@@ -1,0 +1,11 @@
+<!--pages/rule/rule.wxml-->
+<view class="rulepage">
+    <image class="background" src="../../image/0-3.jpg" ></image>
+    <view class="rule-prizeSize">
+        <image class="ruleList" src="../../image/rulelist.jpg"></image>
+        <button bindtap="jumpPrize" class="prize">查看奖品</button>
+    </view>
+    
+    
+    
+</view>

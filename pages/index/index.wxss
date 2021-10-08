@@ -1,0 +1,87 @@
+/* pages/index/index.wxss */
+page{
+    height: 100%;
+    width: 100%;
+}
+button[plain]{
+    border: 0;
+    height: 350rpx;
+    width: 350rpx;
+    padding: 0;
+}
+.createRoom{
+    margin: 0;
+    width: 350rpx;
+    height: 350rpx;
+    border: none;
+}
+.joinRoom{
+    margin: 0;
+    width: 350rpx;
+    height: 350rpx;
+    border: none;
+}
+.content{
+    height: 100%;
+}
+.background{
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-size: 100% 100%;
+    z-index: -1;
+}
+.playRoom{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    bottom: 0ch;
+}
+.touchLook{
+    opacity: 0.8;
+    /* background:black;  */
+}
+
+
+.mask{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #000;
+    z-index: 9000;
+    opacity: 0.2;
+}
+
+.modalDlg{
+    width: 580rpx;
+    height: 300rpx;
+    position: fixed;
+    top: 63%;
+    left: 0;
+    z-index: 9999;
+    margin: -370rpx 85rpx;
+    background-color: #fff;
+    opacity: 0.7;
+    border-radius: 36rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.butn{
+    position: absolute;
+    top: 73%;
+    width: 580rpx;
+    display: flex;
+    justify-content: space-around;
+
+}
+/* .Bcancel{
+    width: 250rpx;
+}
+.Bgo{
+    width: 250rpx;
+} */

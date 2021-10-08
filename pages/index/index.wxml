@@ -1,0 +1,26 @@
+<!--pages/index/index.wxml-->
+<view class="content">
+    <image class="background" src="../../image/0-3.jpg" ></image>
+    <view class="playRoom">
+        <button plain="true" hover-class="touchLook">
+        <image class="createRoom" src="/image/room1.png" bindtap="gotoDiyroom" ></image>
+        </button>
+        <button plain="true" hover-class="touchLook" bindtap="gotoRoomhall">
+        <image class="joinRoom" src="/image/room2.png"></image>
+        </button>
+    </view>
+    <view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+
+<view class="modalDlg" wx:if="{{showModal}}">
+    <text>房间名</text>
+    <input  placeholder="请输入房间名称" bindtap="Roomname"  />
+    <!-- <text id="return"></text> -->
+    <view class="butn">   
+        <button bindtap="cancel" class="Bcancel">取消</button>
+        <button bindtap="go" class="Bgo">确认</button> 
+    </view>
+
+</view>
+
+</view>
+

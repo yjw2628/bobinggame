@@ -1,0 +1,39 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/rule/rule",
+        "pages/my/my",
+        "pages/rule/prize/prize",
+        "pages/index/diyroom/diyroom",
+        "pages/index/roomHall/roomHall"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "博饼game",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "tabBar": {
+        "color": "8a8a8a",
+        "selectedColor": "#07c160",
+        "backgroundColor": "white",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "博饼",
+                "iconPath": "image/bobing.png",
+                "selectedIconPath": "image/bobing.png"
+            },
+            {
+                "pagePath": "pages/rule/rule",
+                "text": "规则",
+                "iconPath": "image/rule.png",
+                "selectedIconPath": "image/rule.png"
+            }
+
+        ]
+    }
+}

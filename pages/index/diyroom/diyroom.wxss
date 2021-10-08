@@ -1,0 +1,43 @@
+/* pages/index/diyroom/diyroom.wxss */
+.gameLook{
+    height: 100%;
+    width: 100%;
+}
+.dicesize{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: 750rpx;
+    width: 750rpx;
+    top: 20%;
+}
+
+.dicesize image{
+    height: 150rpx;
+    width: 150rpx;
+}
+
+.rowOne{
+    width: 80%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.rowTwo{
+    width: 80%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.gobutn{
+    position:fixed;
+    left: 25%;
+    top: 65%;
+}
+

@@ -1,0 +1,24 @@
+/* pages/rule/rule.wxss */
+page{
+    height: 100%;
+}
+.rulepage{
+    height: 100%;
+}
+.rule-prizeSize{
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;  
+}
+.ruleList{
+    /* background-repeat: no-repeat; */
+    height: 1000rpx;
+    width: 100%;     
+}
+.prize{
+    margin-top: 30rpx;
+}

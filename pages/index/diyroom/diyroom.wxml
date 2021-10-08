@@ -1,0 +1,20 @@
+<!--pages/index/diyroom/diyroom.wxml-->
+<view class="gameLook">
+    <image class="background" src="../../../image/0-3.jpg" ></image>
+    <view class="dicesize">
+        <view class="text">{{one}}{{two}}{{three}}{{four}}{{five}}{{six}}</view>
+        <view class="rowOne">
+            <image src="{{dice1}}"></image>
+            <image src="{{dice2}}"></image>
+            <image src="{{dice3}}"></image>
+        </view>
+        <view class="rowTwo">
+           <image src="{{dice4}}"></image>
+           <image src="{{dice5}}"></image>
+          <image src="{{dice6}}"></image>
+        </view>
+    </view>
+    <view class="gobutn">
+        <button class="{{btn}}" bindtap="play">{{texts}}</button>
+    </view>
+</view>
