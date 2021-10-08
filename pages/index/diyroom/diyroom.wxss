@@ -40,4 +40,6 @@
     left: 25%;
     top: 65%;
 }
-
+.btnStart{
+    color: brown;
+}
