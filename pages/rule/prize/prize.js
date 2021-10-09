@@ -5,7 +5,15 @@ Page({
     data: {
       artlist:[
         { imag:'/image/grade1.jpg',text:"一等奖\nkeep年卡一张"},
-        { imag:'/image/grade2.jpg',text:"二等奖"}
+        { imag:'/image/grade11.jpg',text:"一等奖\n小米屏幕挂灯"},
+        { imag:'/image/grade2.jpg',text:"二等奖\n闪迪64G U盘"},
+        { imag:'/image/grade22.jpg',text:"二等奖\n三只松鼠礼包"},   
+        { imag:'/image/grade3.jpg',text:"三等奖\n快速充电头"},
+        { imag:'/image/grade33.jpg',text:"三等奖\n数据线"},
+        { imag:'/image/grade333.jpg',text:"三等奖\n小米巨能写笔"},
+        { imag:'/image/grade4.jpg',text:"四等奖\n汰渍洗衣液500ml"},
+        { imag:'/image/grade44.jpg',text:"四等奖\n纸巾5包"},
+        { imag:'/image/grade444.jpg',text:"四等奖\n笔记本3本"}
       ]  
     },
       
