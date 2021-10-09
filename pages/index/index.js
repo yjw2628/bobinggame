@@ -34,6 +34,9 @@ Page({
         wx.navigateTo({
           url: '/pages/index/diyroom/diyroom',
         })
+        this.setData({
+            showModal: false
+            })
     },
 
     /**

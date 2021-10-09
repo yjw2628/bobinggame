@@ -9,8 +9,6 @@
 .text{
   width: 70%;
   font-weight: bold;
-
-
 }
 
 .artImg image{

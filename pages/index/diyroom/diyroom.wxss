@@ -46,6 +46,6 @@
 
 .resulttext{
     font-size: 45rpx;
-    font-style: inherit;
+    font-weight: bold;
     color: red;
 }

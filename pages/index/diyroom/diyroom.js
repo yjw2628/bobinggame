@@ -29,7 +29,7 @@ Page({
         four:0,
         five:0,
         six:0,
-        this_level1:'您的结果为：',
+        this_level1:'',
         //  存储当前随机数组
         NumberArr:[],
     },                           
@@ -49,7 +49,7 @@ Page({
             seven: '四进',
             eight: '二举',
             nine: '一秀',
-            ten: '没有奖哦亲~~~~~'
+            ten: '没有奖哦亲~~~~'
         };
         var this_level;
 
@@ -205,7 +205,7 @@ Page({
          self.setData({
              this_level1:this_level,
          })
-         console.log(self.data.this_level1);
+        //  console.log(self.data.this_level1);
 
         },20)  
             self.setData({
@@ -217,12 +217,18 @@ Page({
 
         } else{
             clearInterval(self.timer);
-
+            //toast弹窗显示等级
+            wx.showToast({
+              title:self.data.this_level1,
+              icon:'none',
+              duration:4000
+            })
             self.setData({
                 btn:".btnStart",
                 texts:"开始博饼",
                 flag:true,
             })
+            
         }
 
     },
